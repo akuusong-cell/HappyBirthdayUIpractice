@@ -307,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6931728220684714874, guid: 629dad6031beb4bdebac2e392fb8eac9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6973713528523065431, guid: 629dad6031beb4bdebac2e392fb8eac9, type: 3}
       propertyPath: m_text
@@ -445,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352, y: -357}
-  m_SizeDelta: {x: 201.7498, y: 252.1872}
+  m_AnchoredPosition: {x: 360.31885, y: -357}
+  m_SizeDelta: {x: 218.3876, y: 252.1872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741931317
 MonoBehaviour:
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5306897801322085113, guid: e008af3e6317b43c4b902dbb04204061, type: 3}
+  m_Sprite: {fileID: -7917601808915424674, guid: e3530bcbb4ded4af28e732fd6df0258a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameUi
   answerInput: {fileID: 1065431488}
   correctPopup: {fileID: 613112882}
-  nextScene: 
+  nextScene: Game3
   correctAnswer: iloveyou
 --- !u!1 &1341884008
 GameObject:
