@@ -311,7 +311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6973713528523065431, guid: 629dad6031beb4bdebac2e392fb8eac9, type: 3}
       propertyPath: m_text
-      value: "\uCCAB \uBC88\uC9F8 \uC554\uD638 : 5"
+      value: "\uB450 \uBC88\uC9F8 \uC554\uD638 : 6"
       objectReference: {fileID: 0}
     - target: {fileID: 7357347052861096668, guid: 629dad6031beb4bdebac2e392fb8eac9, type: 3}
       propertyPath: m_Pivot.x
@@ -445,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352, y: -357}
-  m_SizeDelta: {x: 201.7498, y: 252.1872}
+  m_AnchoredPosition: {x: 360.31885, y: -357}
+  m_SizeDelta: {x: 218.3876, y: 252.1872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741931317
 MonoBehaviour:
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5306897801322085113, guid: e008af3e6317b43c4b902dbb04204061, type: 3}
+  m_Sprite: {fileID: -7917601808915424674, guid: e3530bcbb4ded4af28e732fd6df0258a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -827,14 +827,14 @@ PrefabInstance:
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1147162445}
+      objectReference: {fileID: 1147162447}
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnClickSubmitButton
       objectReference: {fileID: 0}
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FIrstGameUi, Assembly-CSharp
+      value: GameUi, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5886969272566836191, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_text
@@ -1167,6 +1167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147162446}
   - component: {fileID: 1147162445}
+  - component: {fileID: 1147162447}
   m_Layer: 0
   m_Name: '@UIManager'
   m_TagString: Untagged
@@ -1204,6 +1205,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1147162447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147162444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d176839c6cb9427dafa7991704a17ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameUi
+  answerInput: {fileID: 1065431488}
+  correctPopup: {fileID: 613112882}
+  nextScene: Game3
+  correctAnswer: iloveyou
 --- !u!1 &1341884008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,7 +1381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ".... .- .--. .--. -.-- \n-... .. .-. - .... -.. .- -.--"
+  m_text: .. .-.. --- ...- . -.-- --- ..-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
   m_sharedMaterial: {fileID: -2799333387482508911, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
@@ -1628,14 +1645,14 @@ PrefabInstance:
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1147162445}
+      objectReference: {fileID: 1147162447}
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnClickNextGameButton
       objectReference: {fileID: 0}
     - target: {fileID: 4926950536082266233, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FIrstGameUi, Assembly-CSharp
+      value: GameUi, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5886969272566836191, guid: 5473454840ad64723ab0c12b2c6e7f91, type: 3}
       propertyPath: m_text
@@ -2033,7 +2050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBB38\uC81C 1"
+  m_text: "\uBB38\uC81C 2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
   m_sharedMaterial: {fileID: -2799333387482508911, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
