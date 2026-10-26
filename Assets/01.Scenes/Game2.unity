@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ".... .- .--. .--. -.-- \n-... .. .-. - .... -.. .- -.--"
+  m_text: .. .-.. --- ...- . -.-- --- ..-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
   m_sharedMaterial: {fileID: -2799333387482508911, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBB38\uC81C 1"
+  m_text: "\uBB38\uC81C 2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
   m_sharedMaterial: {fileID: -2799333387482508911, guid: def03d3bd081c47b99c3c7f19e71a658, type: 2}
