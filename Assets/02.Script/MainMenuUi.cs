@@ -20,27 +20,32 @@ public class MainMenuUi : MonoBehaviour
     public void OnClickStart()
     {
         SceneManager.LoadScene(firstGameScene);
+        SoundManager.Instance.PlaySelectSound();
     }
 
     public void OnClickFirstReject()
     {
         firstBusyPopup.SetActive(true);
+        SoundManager.Instance.PlaySelectSound();
     }
 
     public void OnClickSecondReject()
     {
         firstBusyPopup.SetActive(false);
         secondBusyPopup.SetActive(true);
+        SoundManager.Instance.PlaySelectSound();
     }
     
     public void OnClickThirdReject()
     {
         secondBusyPopup.SetActive(false);
         noticePasswordPopup.SetActive(true);
+        SoundManager.Instance.PlayCelebrateSound();
     }
 
     public void OnClickClosePopup()
     {
         noticePasswordPopup.SetActive(false);
+        SoundManager.Instance.PlaySelectSound();
     }
 }

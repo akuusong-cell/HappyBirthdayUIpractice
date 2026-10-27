@@ -9,7 +9,7 @@ public class GameUi : MonoBehaviour
     [SerializeField] private GameObject correctPopup;
     [SerializeField] private string nextScene;
     [SerializeField] private string correctAnswer;
-
+    
     private void Awake()
     {
         correctPopup.SetActive(false);
@@ -23,15 +23,18 @@ public class GameUi : MonoBehaviour
                 System.StringComparison.OrdinalIgnoreCase))
         {
             correctPopup.SetActive(true);
+            SoundManager.Instance.PlayCorrectSound();
         }
         else
         {
             answerInput.text = "오답!";
+            SoundManager.Instance.PlayErrorSound();
         }
     }
 
     public void OnClickNextGameButton()
     {
         SceneManager.LoadScene(nextScene);  
+        SoundManager.Instance.PlaySelectSound();
     }
 }
